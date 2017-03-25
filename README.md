@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/KBTHIES/Kevin-s-HTML-Repository/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KBTHIES/Kevin-s-HTML-Repository/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!doctype html> <!-- instruction to the browser about what version of HTML the page is written in.-->
+<html>
+	<head> <!-- title,scripts, styles, meta information, and more. -->
+    	<meta charset="UTF-8">
+    	<title>Kevin's thing</title>
+            <style>
+                html{
+                    min-height: 100%
+                    }
+                body {
+                    background-image: linear-gradient(#45BCE0,#175263);
+    
+            </style>
+    </head>
+        
+	<body>
+        <h4>Kevin's Thing!</h4>
+        <hr>
+        <h1>Ok, so I watched a movie...</h1>
+        <hr>
+        and so like, what now? It was really emotional and stuff. After I watched it, I had trouble actually doing things since I felt so emotional. By the way, the movie was
+        <b>Kimi No Na Wa</b>, or, as it's known in english, <b>Your Name</b>. It's getting an english dub of the movie and it'll be at <i>Southside Cinemas</i> pretty soon, so I thought I'd check it out. The lead singer who did the soundtrack from a group called <a href="https://www.youtube.com/channel/UCIVqvhyo8ttjYOmMJuhq_YQ">Radwimps</a> actually spent some time in the states, and so he's actually redoing the soundtrack in english. From what I've heard of it so far, which is all of it, it's just as moving as the original Japanese version.
+        
+        <h3>In case you wanted a sample, here's the main song in Japanese.</h3>
+        <div style="position:relative;height:0;padding-bottom:40%"><iframe src="https://www.youtube.com/embed/vLGQQbjZc5A?ecver=2" width="320" height="90" frameborder="0" style="position:absolute;width:60%;height:100%;left:0" allowfullscreen></iframe></div>
+        <wbr>
+        Here's a button just in case you need something to do while listening to music.
+        <h1></h1>
+        <button name="button"><h6>I do nothing</h6></button>
+        <h3>It's fun to click, ain't it?</h3>
+	</body>
+</html>
